@@ -9,6 +9,14 @@ public class Photo {
     @Id
     private String id;
 
+    public String getTitle() {
+        return title;
+    }
+
+    public Binary getImage() {
+        return image;
+    }
+
     public void setId(String id) {
         this.id = id;
     }
